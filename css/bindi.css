@@ -72,6 +72,15 @@ body {
     border-color: var(--green-color) !important;
 }
 /* end navbar */
+.scroller {
+    background-color: var(--button-color1);
+    width: 0;
+    height: 4px;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    z-index: 99999;
+  }
 /* start landing */
 .landing {
     display: flex;
